@@ -1,14 +1,15 @@
 package main
 
 import (
-	"KafkaMessagesGenerator/generator"
 	"context"
 	"encoding/json"
 	"fmt"
-	"github.com/segmentio/kafka-go"
+	"kafka-bet-generator/generator"
 	"log"
 	"sync"
 	"time"
+
+	"github.com/segmentio/kafka-go"
 )
 
 func main() {
